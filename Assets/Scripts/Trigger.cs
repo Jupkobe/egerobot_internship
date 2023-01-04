@@ -9,5 +9,6 @@ public class Trigger : MonoBehaviour
     void OnTriggerEnter(Collider collider)
     {
         button.GetComponent<Interaction>().switch_light();
+        Debug.Log("Abo");
     }
 }

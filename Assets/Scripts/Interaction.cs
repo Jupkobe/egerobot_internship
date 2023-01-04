@@ -11,7 +11,6 @@ public class Interaction : MonoBehaviour
     public Material light_off;
     public GameObject Box;
     public GameObject Trigger;
-    public bool is_triggered;
     Vector3 curr_pos;
     public Rigidbody rb;
 
